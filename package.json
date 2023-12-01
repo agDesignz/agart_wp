@@ -1,0 +1,17 @@
+{
+  "name": "agart",
+  "version": "1.0.0",
+  "description": "Theme for my art site",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start"
+  },
+  "author": "agArt",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.14.0"
+  }
+}

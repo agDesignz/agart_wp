@@ -1,0 +1,32 @@
+@use "./variables"as v;
+@use "./mixins"as m;
+
+.heading {
+
+  &--secondary {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: .12rem;
+
+    @include m.respond(bp-md) {
+      font-size: 5rem;
+    }
+
+    @include m.respond(bp-lg) {
+      font-size: 8rem;
+    }
+  }
+}
+
+.text {
+
+  &--white {
+    color: v.$color-grey-light;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+}
